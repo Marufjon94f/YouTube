@@ -1,0 +1,35 @@
+.header {
+  display: flex;
+  align-items: center;
+}
+.left-header {
+  display: flex;
+  align-items: center;
+  
+}
+
+.right-header__list {
+  width: 200px;
+  left: 100%;
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  align-items: center;
+  margin-left: 15px;
+  margin-left: auto;
+}
+.youtube {
+  margin-left: 20px;
+  margin-right: 60px;
+}
+
+.input {
+  width: 800px;
+  height: 44px;
+  padding: 0 15px;
+  background-image: url(../../assets/img/search.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  border-radius: 22px;
+  margin-right: 100px;
+}
