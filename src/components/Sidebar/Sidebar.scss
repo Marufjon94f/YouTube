@@ -1,37 +1,52 @@
+.sidebar{
+  padding: 0 20px;
+}
 .top-list {
   margin: 0;
   padding: 0;
   list-style-type: none;
-  margin-bottom: 50px;
+  margin-bottom: 35px;
 }
+
 .top-item {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
+
 .text {
   margin-left: 15px;
 }
+
 .mid-list {
+  
   margin: 0;
   padding: 0;
   list-style-type: none;
 }
+
 .mid-item {
-  margin-bottom: 20px;
+  margin-bottom: 15px;
+}
+.subscriptions-list{
+  height: 100px;
+  overflow: auto;
 }
 .subscriptions-list {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
   margin: 0;
   padding: 0;
   list-style-type: none;
 }
+
 .subscriptions-item {
   display: flex;
- 
+  
 }
+
 .sub-img {
   object-fit: contain;
 }
+
 .text {
   font-size: 16px;
   line-height: 20px;
@@ -40,28 +55,51 @@
   font-weight: normal;
   color: #898989;
 }
+
 .subscribed-users {
-  margin-top: 59px;
+  margin-top: 30px;
+  margin-bottom: 10px;
 }
+
 .sub-img {
   margin-right: 10px;
 }
+
 .sub-username {
   font-size: 16px;
   line-height: 20px;
   color: #898989;
 }
-.settings{
-    
-    align-items: center;
-    margin-top: 100px;
-    margin-bottom: 45px;
+
+.settings {
+
+  align-items: center;
+  margin-top: 55px;
+  margin-bottom: 50px;
 }
-.sub-settings{
-    display: flex;
-    align-items: center;
+
+.sub-settings {
+  display: flex;
+  align-items: center;
 }
-.link{
-    display: flex;
-    text-decoration: none;
+
+.link {
+  display: flex;
+  text-decoration: none;
+  align-items: center;
+
+}
+
+.link-active {
+  text-decoration: none;
+
+  .text {
+    color: red;
+  }
+
+  svg {
+    path {
+      fill: rgb(233, 0, 0);
+    }
+  }
 }

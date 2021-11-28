@@ -1,5 +1,5 @@
-.home-top_item{
-    list-style: none;
+.home-top_item {
+  list-style: none;
 }
 
 .home-top_sublist {
@@ -12,10 +12,21 @@
   color: #c2c2c2;
   margin-right: 25px;
 }
-.home-top__text{
-    font-size: 16px;
-line-height: 20px;
-color: #19202C;
-padding: 0;
+.home-top__text {
+  font-size: 16px;
+  line-height: 20px;
+  color: #19202c;
+  padding: 0;
+}
 
+.home-top-item{
+margin-right: 35px;
+}
+.home-top_sublist{
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+.home-top__text{
+  width: 290px;
 }

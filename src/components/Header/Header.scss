@@ -1,6 +1,10 @@
 .header {
   display: flex;
   align-items: center;
+  padding-left: 20px;
+  // position: sticky;
+  // top: 0;
+  // z-index: 100;
 }
 .left-header {
   display: flex;

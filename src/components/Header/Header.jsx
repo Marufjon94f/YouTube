@@ -10,13 +10,22 @@ import Ringbell from "../Library/Svg/ringbell";
 import Userpic from "../../assets/img/Userpic.png";
 
 function Header() {
+  const handleAddClass = (evt) => {
+    const allActiveClasses = document.querySelectorAll(".link-active");
+    allActiveClasses.forEach((link) => link.classList.remove("link-active"));
+    evt.currentTarget.classList.add("link-active");
+  };
+
   return (
     <div className="header">
       <div className="left-header">
-       <div className="hamburger"><Hamburger /></div> 
+        <div className="hamburger">
+          <Hamburger />
+        </div>
         <div className="youtube">
-        <Link className="logo-youtube" to="/"><Youtube /></Link>
-          
+          <Link className="logo-youtube" to="/">
+            <Youtube />
+          </Link>
         </div>
       </div>
 
@@ -29,16 +38,22 @@ function Header() {
       <div className="right-header">
         <ul className="right-header__list">
           <li>
-            <Camera />
+            <Link className="link" to="/" onClick={handleAddClass}>
+              <Camera />
+            </Link>
           </li>
           <li>
-            <Combined />
+            <Link className="link" to="/" onClick={handleAddClass}>
+              <Combined />
+            </Link>
           </li>
           <li>
-            <Ringbell />
+            <Link className="link" to="/" onClick={handleAddClass}>
+              <Ringbell />
+            </Link>
           </li>
           <li>
-            <img  src={Userpic} alt="pic"></img>
+            <img src={Userpic} alt="pic"></img>
           </li>
         </ul>
       </div>

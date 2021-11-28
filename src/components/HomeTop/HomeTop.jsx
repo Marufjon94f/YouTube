@@ -1,10 +1,11 @@
 import "./HomeTop.scss"
 import Landing from "../../assets/img/landing.jpg"
 
-function HomeTop() {
+function HomeTop({title}) {
     return(
+       
+        
 <div className="home-top">
-
 
 <li className="home-top-item">
 <img className="home-top__img" src={Landing} 
@@ -12,7 +13,7 @@ function HomeTop() {
         width="250"
         height="150"
         ></img>
-        <h5 className="home-top__text">A Brief History Of Creation</h5>
+        <h5 className="home-top__text">{title}</h5>
         <ul className="home-top_sublist">
             <li><span className="text-tube">80k views</span></li>
             <li><span className="text-tube">3 days ago</span></li>

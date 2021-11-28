@@ -34,13 +34,13 @@ function Sidebar() {
     <div className="sidebar">
       <ul className="top-list">
         <li className="top-item">
-          <Link className="link" to="/">
+          <Link className="link" to="/" onClick={handleAddClass}>
             <Homepic />
             <span className="text">Home</span>
           </Link>
         </li>
         <li className="top-item">
-          <Link className="link" to="/" onClick={handleAddClass}>
+          <Link className=" link" to="/" onClick={handleAddClass}>
             <Trending />
             <span className="text">Trending</span>
           </Link>
