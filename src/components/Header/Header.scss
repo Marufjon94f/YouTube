@@ -12,6 +12,11 @@
   
 }
 
+.right-header {
+  margin-left: auto;
+  margin-right: 20px;
+}
+
 .right-header__list {
   width: 200px;
   left: 100%;
@@ -19,7 +24,7 @@
   justify-content: space-between;
   list-style-type: none;
   align-items: center;
-  margin-left: 30px;
+  margin-left: auto;
   right: 0px;
 }
 .youtube {

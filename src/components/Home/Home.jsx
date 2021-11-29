@@ -15,6 +15,8 @@ import HomeMiddle from "../HomeMiddle/HomeMiddle";
 import FoodDrink from "../FoodDrink/FoodDrink";
 import Food from "../../assets/img/fd.png";
 import Videocart from "../../components/Videocart/Videocart";
+import ChannelPage from "../ChannelPage/ChannelPage";
+import {Switch, Route} from "react-router";
 
 function Home() {
   const [items, setItems] = useState([]);
@@ -30,6 +32,12 @@ function Home() {
       <div className="home">
         <Sidebar />
         <div>
+          <div><Switch>
+            <Route path="/channel" component={ChannelPage} > 
+              
+              </Route></Switch></div>
+              <Switch>
+         <Route path="/" component={Home} exact>
           <div className="home-main__content">
             <div className="home-main__channel">
               <img
@@ -113,9 +121,17 @@ function Home() {
               </ul>
             )}
           </div>
+          </Route>
+          </Switch>
         </div>
+         <Switch>
+        <Route path="/video" component={Videocart}>
+        <Videocart/>
+        </Route>
+      </Switch>
       </div>
-      <Videocart/>
+      
+     
     </>
   );
 }
