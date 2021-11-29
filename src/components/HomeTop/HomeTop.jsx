@@ -1,5 +1,6 @@
 import "./HomeTop.scss"
 import Landing from "../../assets/img/landing.jpg"
+import { Link } from "react-router-dom";
 
 
 function HomeTop({title}) {
@@ -9,12 +10,12 @@ function HomeTop({title}) {
 <div className="home-top">
 
 <li className="home-top-item">
-<img className="home-top__img" src={Landing} 
+<Link to="/video"><img className="home-top__img" src={Landing} 
         alt="pic"
         width="250"
         height="150"
         ></img>
-        <h5 className="home-top__text">{title}</h5>
+        <h5 className="home-top__text">{title}</h5></Link>
         <ul className="home-top_sublist">
             <li className="home-top_item"><span className="text-tube">80k views</span></li>
             <li className="home-top_item"><span className="text-tube">3 days ago</span></li>
