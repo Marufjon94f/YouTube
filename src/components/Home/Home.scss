@@ -1,10 +1,13 @@
 .home {
   display: flex;
+  height: 85vh;
+  overflow: auto;
 }
 
 .home-top-list {
   width: 85vw;
   display: flex;
+  height: 250px;
   overflow: auto;
   list-style: none;
 }
@@ -15,9 +18,11 @@
   line-height: 33px;
   color: #19202c;
   margin-left: 15px;
+  margin-top: 10px;
 }
 .blair {
   object-fit: cover;
+  margin-top: -18px;
 }
 
 .home-main__channel {
@@ -25,6 +30,67 @@
   align-items: center;
   padding: 0 50px;
 }
+.arrow {
+  display: flex;
+  margin-left: auto;
+  margin-top: -15px;
+}
+.arrow-left {
+  margin-right: 5px;
+}
+
+.home-middlie-list {
+  width: 85vw;
+  margin-top: -180px;
+  display: flex;
+  list-style: none;
+  overflow: auto;
+}
+
+.food-list {
+  width: 85vw;
+  margin-top: -130px;
+  display: flex;
+  overflow: auto;
+  list-style: none;
+}
+.recommended {
+  font-size: 26px;
+  line-height: 33px;
+  color: #19202c;
+}
+.rec-box{
+  display: flex;
+  align-items: center;
+  padding: 0 50px;
+}
 .arrow{
-    margin-left: auto;
+  margin-left: auto;
+  
+}
+.arrow-box{
+  margin-right: 5px;
+}
+.food-channel__title{
+  font-size: 26px;
+line-height: 33px;
+color: #19202C;
+}
+
+.food-channel__text{
+  font-size: 12px;
+line-height: 15px;
+
+color: #C2C2C2;
+}
+.food-channel__title{
+  margin: 25px 15px;
+}
+.food-wapper{
+  display: flex;
+  align-items: center;
+}
+.mainfood-wapper{
+  display: flex;
+  align-items: center;
 }

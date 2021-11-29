@@ -1,6 +1,7 @@
 import "./HomeTop.scss"
 import Landing from "../../assets/img/landing.jpg"
 
+
 function HomeTop({title}) {
     return(
        
@@ -15,14 +16,15 @@ function HomeTop({title}) {
         ></img>
         <h5 className="home-top__text">{title}</h5>
         <ul className="home-top_sublist">
-            <li><span className="text-tube">80k views</span></li>
-            <li><span className="text-tube">3 days ago</span></li>
-            <li><span className="text-tube">Dollie Blair</span></li>
+            <li className="home-top_item"><span className="text-tube">80k views</span></li>
+            <li className="home-top_item"><span className="text-tube">3 days ago</span></li>
+            <li className="home-top_item"><span className="text-tube">Dollie Blair</span></li>
         </ul>
 </li>
 
 
 </div>
+
 
     )
 }
