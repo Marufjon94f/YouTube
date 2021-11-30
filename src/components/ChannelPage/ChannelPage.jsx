@@ -1,5 +1,4 @@
 import "./ChannelPage.scss";
-
 import girl from "../../assets/img/girlsglass.png";
 import search from "../../assets/img/search.png";
 import { Link } from "react-router-dom";

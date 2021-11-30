@@ -45,7 +45,7 @@ function Home() {
                   <img
                     className="blair"
                     src={blair}
-                    alt="channel picture"
+                    alt="channel description"
                     width="35"
                     height="35"
                   />
