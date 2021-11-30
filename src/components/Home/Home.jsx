@@ -16,6 +16,7 @@ import FoodDrink from "../FoodDrink/FoodDrink";
 import Food from "../../assets/img/fd.png";
 import Videocart from "../../components/Videocart/Videocart";
 import ChannelPage from "../ChannelPage/ChannelPage";
+import VideoBar from "../VideoBar/VideoBar";
 
 
 function Home() {
@@ -129,15 +130,15 @@ function Home() {
         <Switch>
           <Route path="/video" component={Videocart}>
             <Videocart />
-            {/* <div className="rightbar-video">
+            <div className="rightbar-video">
               {items.length > 0 && (
                 <ul className="home-rightbar__list">
                   {items.map((video) => (
-                    <HomeMiddle key={video.id} title={video.title} />
+                    <VideoBar key={video.id} title={video.title} />
                   ))}
                 </ul>
               )}
-            </div> */}
+            </div>
           </Route>
         </Switch>
       </div>

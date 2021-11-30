@@ -4,8 +4,8 @@ import Dots from "../Library/Svg/dots";
 import Oval from "../../assets/img/Oval.jpg";
 import Likes from "../Library/Svg/likes";
 import Dislikes from "../Library/Svg/dislikes";
-import Cover from "../../assets/img/Cover.png";
-import { Link } from "react-router-dom";
+
+// import { Link } from "react-router-dom";
 
 function Videocart({title}) {
   const [counter, setCounter] = useState(123);
@@ -70,24 +70,7 @@ function Videocart({title}) {
             consumer’s mood when they see your ad.
           </p>
         </div>
-        {/* <div className="right-bar">
-          <li className="rightbar-item">
-            <Link to="/video">
-              <img
-                className="cover-img"
-                src={Cover}
-                alt="cover-img"
-                width="350"
-                height="200"
-              />
-              <h5 className="rightbar-title">{title}</h5>
-            </Link>
-            <div className="rightbar-text">
-              <p>240k views · 4 months ago</p>
-              <p>Edward Osborne</p>
-            </div>
-          </li>
-        </div> */}
+        
       </div>
     </div>
   );
