@@ -1,4 +1,4 @@
-import "./ChannelPage.scss";
+import "../ChannelPage/ChannelPage.scss";
 import { Link } from "react-router-dom";
 import ChannelBottom from "../ChannelBottom/ChannelBottom";
 // import { useEffect, useState } from "react/cjs/react.development";
