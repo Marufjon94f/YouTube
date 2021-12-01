@@ -57,7 +57,7 @@ function ChannelPage() {
         </li>
 
         <li className="homel">
-          <Link className="links" to="./channel">
+          <Link className="links lineactive" to="./channel">
             Channels
           </Link>
         </li>
