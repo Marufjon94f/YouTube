@@ -1,4 +1,5 @@
 import "./App.scss";
+import "./assets/scss/fonts.scss"
 import { Switch, Route } from "react-router";
 import Home from "./components/Home/Home";
 import ChannelPage from "./components/ChannelPage/ChannelPage";
