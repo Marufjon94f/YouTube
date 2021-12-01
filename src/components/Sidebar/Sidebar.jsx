@@ -1,6 +1,6 @@
 import "./Sidebar.scss";
 import { Link } from "react-router-dom";
-import {Switch, Route} from "react-router";
+
 
 //other images
 import gussie from "../../assets/img/gussie.jpg";
@@ -109,37 +109,37 @@ function Sidebar() {
         <h3>Subscriptions</h3>
         <ul className="subscriptions-list">
           <li className="subscriptions-item">
-            <Link className="link" to="/channel" onClick={handleAddClass}>
+            <Link className="link sub-user" to="/channel" onClick={handleAddClass}>
               <img className="sub-img" src={gussie} alt="pic"></img>
               <p className="sub-username">Gussie Singleton</p>
             </Link>
           </li>
           <li className="subscriptions-item">
-            <Link className="link" to="/channel" onClick={handleAddClass}>
+            <Link className="link sub-user" to="/channel" onClick={handleAddClass}>
               <img className="sub-img" src={nora} alt="pic"></img>
               <p className="sub-username">Nora Francis</p>
             </Link>
           </li>
           <li className="subscriptions-item">
-            <Link className="link" to="/channel" onClick={handleAddClass}>
-              <img className="sub-img" src={belle} alt="pic"></img>
+            <Link className="link sub-user" to="/channel" onClick={handleAddClass}>
+              <img className="sub-img-belle" src={belle} alt="pic" width="26"/>
               <p className="sub-username">Belle Briggs</p>
             </Link>
           </li>
           <li className="subscriptions-item">
-            <Link className="link" to="/channel" onClick={handleAddClass}>
+            <Link className="link sub-user" to="/channel" onClick={handleAddClass}>
               <img className="sub-img" src={eunice} alt="pic"></img>
               <p className="sub-username">Eunice Cortez</p>
             </Link>
           </li>
           <li className="subscriptions-item">
-            <Link className="link" to="/channel" onClick={handleAddClass}>
+            <Link className="link sub-user" to="/channel" onClick={handleAddClass}>
               <img className="sub-img" src={emma} alt="pic"></img>
               <p className="sub-username">Emma Hanson</p>
             </Link>
           </li>
           <li className="subscriptions-item">
-            <Link className="link" to="/channel" onClick={handleAddClass}>
+            <Link className="link sub-user" to="/channel" onClick={handleAddClass}>
               <img className="sub-img" src={leah} alt="pic"></img>
               <p className="sub-username">Leah Berry</p>
             </Link>
@@ -148,7 +148,7 @@ function Sidebar() {
       </div>
       <div className="settings">
         <div className="sub-settings">
-        <Link className="link" to="/video" onClick={handleAddClass}>
+        <Link className="link" to="/" onClick={handleAddClass}>
           <Settings />
           <span className="text">Setting</span></Link>
         </div>

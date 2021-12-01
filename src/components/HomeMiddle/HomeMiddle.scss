@@ -1,22 +1,25 @@
 .home-middlie-item {
+  font-family: Mulish;
   margin-right: 40px;
 }
 .cover-img {
   border-radius: 15px;
 }
 .middle-text {
+  font-family: Mulish;
     display: flex;
   font-size: 12px;
   line-height: 15px;
+  
   color: #c2c2c2;
   justify-content: space-between;
 }
 
 .middle-title{
-    font-size: 16px;
-line-height: 20px;
-/* identical to box height */
-
-
-color: #19202C;
+  font-family: Mulish;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+   color: #19202C;
+   height:25px;
 }

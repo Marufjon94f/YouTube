@@ -1,11 +1,14 @@
 .sidebar{
+  height: 580px;
   padding: 0 20px;
 }
 .top-list {
+  font-family: Mulish; 
   margin: 0;
   padding: 0;
   list-style-type: none;
   margin-bottom: 35px;
+ 
 }
 
 .top-item {
@@ -17,30 +20,33 @@
 }
 
 .mid-list {
-  
+  font-family: Mulish;
   margin: 0;
   padding: 0;
   list-style-type: none;
 }
 
 .mid-item {
+  font-family: Mulish;
   margin-bottom: 15px;
 }
-.subscriptions-list{
-  height: 100px;
-  overflow: auto;
-}
+
 .subscriptions-list {
-  display: flex;
-  flex-direction: column;
+
+ 
   margin: 0;
   padding: 0;
   list-style-type: none;
+  height: 110px;
+  overflow: auto;
 }
 
 .subscriptions-item {
+  width: 147px;
+  font-family: Mulish;
   display: flex;
-  
+  margin-top: -20px;
+  text-align: start;
 }
 
 .sub-img {
@@ -48,6 +54,7 @@
 }
 
 .text {
+  font-family: Mulish;
   font-size: 16px;
   line-height: 20px;
   font-family: Mulish;
@@ -57,6 +64,7 @@
 }
 
 .subscribed-users {
+  padding: 0;
   margin-top: 30px;
   margin-bottom: 10px;
 }
@@ -66,15 +74,16 @@
 }
 
 .sub-username {
+  font-family: Mulish;
   font-size: 16px;
   line-height: 20px;
   color: #898989;
 }
 
 .settings {
-
+  font-family: Mulish;
   align-items: center;
-  margin-top: 55px;
+  margin-top: 45px;
   margin-bottom: 50px;
 }
 
@@ -89,7 +98,13 @@
   align-items: center;
 
 }
+.sub-user{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5px;
 
+  align-items: center;
+}
 .link-active {
   text-decoration: none;
 
@@ -102,4 +117,9 @@
       fill: rgb(233, 0, 0);
     }
   }
+}
+
+.sub-img-belle{
+  margin-right: 10px;
+  transform: scale(1.3);
 }

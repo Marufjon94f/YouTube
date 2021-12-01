@@ -1,18 +1,24 @@
 .home {
   display: flex;
-  height: 85vh;
+  // height: 500px;
+  // overflow: auto;
+}
+.overflow {
+  width: 86vw;
+  height: 630px;
   overflow: auto;
 }
-
 .home-top-list {
-  width: 85vw;
+  font-family: Mulish;
+  width: 81vw;
   display: flex;
   height: 250px;
-  overflow: auto;
   list-style: none;
+  overflow: auto;
 }
 
 .blair-text {
+  font-family: Mulish;
   font-weight: bold;
   font-size: 26px;
   line-height: 33px;
@@ -34,13 +40,18 @@
   display: flex;
   margin-left: auto;
   margin-top: -15px;
+  
+}
+.arrowfood{
+  margin-right: 15px;
 }
 .arrow-left {
   margin-right: 5px;
 }
 
 .home-middlie-list {
-  width: 85vw;
+  font-family: Mulish;
+  width: 81vw;
   margin-top: -180px;
   display: flex;
   list-style: none;
@@ -48,10 +59,12 @@
 }
 
 .food-list {
-  width: 85vw;
-  margin-top: -130px;
+  font-family: Mulish;
+  width: 81vw;
+  margin-top: -100px;
   display: flex;
   overflow: auto;
+
   list-style: none;
 }
 .recommended {
@@ -59,41 +72,53 @@
   line-height: 33px;
   color: #19202c;
 }
-.rec-box{
+.rec-box {
   display: flex;
   align-items: center;
   padding: 0 50px;
 }
-.arrow{
+.arrow {
   margin-left: auto;
-  
 }
-.arrow-box{
+.arrow-box {
   margin-right: 5px;
 }
-.food-channel__title{
+.food-channel__title {
+  font-family: Mulish, sans-serif;
   font-size: 26px;
-line-height: 33px;
-color: #19202C;
+  line-height: 33px;
+  color: #19202c;
 }
 
-.food-channel__text{
+.food-channel__text {
+  font-family: Mulish;
   font-size: 12px;
-line-height: 15px;
+  line-height: 15px;
 
-color: #C2C2C2;
+  color: #c2c2c2;
 }
-.food-channel__title{
+.food-channel__title {
+  font-family: Mulish;
   margin: 25px 15px;
 }
-.food-wapper{
+.food-wapper {
+  margin-left: 30px;
   display: flex;
   align-items: center;
 }
-.mainfood-wapper{
+.mainfood-wapper {
+  width: 83vw;
   display: flex;
   align-items: center;
 }
-.home-rightbar{
+.home-rightbar {
   height: 150px;
+}
+.links {
+  text-decoration: none;
+  color: black;
+}
+.home-rightbar__list {
+  font-family: Mulish;
+  list-style: none;
 }

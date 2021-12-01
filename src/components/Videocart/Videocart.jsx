@@ -4,16 +4,22 @@ import Dots from "../Library/Svg/dots";
 import Oval from "../../assets/img/Oval.jpg";
 import Likes from "../Library/Svg/likes";
 import Dislikes from "../Library/Svg/dislikes";
+import VideoBar from "../VideoBar/VideoBar";
 
 // import { Link } from "react-router-dom";
 
-function Videocart({title}) {
+function Videocart({ title }) {
+  const [items, setItems] = useState([]);
   const [counter, setCounter] = useState(123);
 
   useEffect(() => {}, []);
 
   const [mcounter, setMcounter] = useState(435);
-
+  useEffect(() => {
+    fetch("https://jsonplaceholder.typicode.com/photos?albumId=89")
+      .then((response) => response.json())
+      .then((data) => setItems(data));
+  }, []);
   return (
     <div className="video-page">
       <div className="video-youtube">
@@ -70,7 +76,16 @@ function Videocart({title}) {
             consumer’s mood when they see your ad.
           </p>
         </div>
-        
+      </div>
+      <div className="rightbar-video">
+        <h2>Next</h2>
+        {items.length > 0 && (
+          <ul className="home-rightbar__list">
+            {items.map((video) => (
+              <VideoBar key={video.id} title={video.title} />
+            ))}
+          </ul>
+        )}
       </div>
     </div>
   );

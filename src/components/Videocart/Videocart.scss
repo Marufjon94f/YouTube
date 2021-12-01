@@ -1,32 +1,49 @@
-.vid-box{
-    display: flex;
-    align-items: center;
+.video-page {
+  display: flex;
+  height: 620px;
+  overflow: auto;
 }
 
-.button-box{
-    display: flex;
-    margin-left: auto;
-    // padding-right: 400px;
-}
-.iframe-youtube{
-    margin-top: 50px;
-    border-radius: 14px;
-    
-}
-.description{
-    cursor: pointer;
-    padding-left: 15px;
-}
-.like-button, .dislike-button, .share-button{
-    cursor: pointer;
-    padding: 8px;
-    border-radius: 10px;
-    border:none
+.vid-box {
+  display: flex;
+  align-items: center;
 }
 
-.dislike-button{
-    margin: 0 15px;
+.button-box {
+  display: flex;
+  margin-left: auto;
+  // padding-right: 400px;
 }
-.foodsub__text2{
-    width: 700px;
+
+.iframe-youtube {
+  margin-top: 50px;
+  border-radius: 14px;
+}
+
+.description {
+  cursor: pointer;
+  padding-left: 15px;
+}
+
+.like-button,
+.dislike-button,
+.share-button {
+  cursor: pointer;
+  padding: 8px;
+  border-radius: 10px;
+  border: none;
+}
+
+.dislike-button {
+  margin: 0 15px;
+}
+
+.foodsub__text2 {
+  font-family: Mulish;
+  width: 700px;
+}
+
+.rightbar-video {
+  height: 620px;
+  overflow: auto;
 }

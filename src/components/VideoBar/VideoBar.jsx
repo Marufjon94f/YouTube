@@ -8,7 +8,7 @@ function VideoBar ({title}){
         
 <div className="right-bar">
           <li className="rightbar-item">
-            <Link to="/video">
+            <Link className="links" to="/video">
               <img
                 className="cover-img"
                 src={Cover}
@@ -17,11 +17,11 @@ function VideoBar ({title}){
                 height="200"
               />
               <h5 className="rightbar-title">{title}</h5>
-            </Link>
+            
             <div className="rightbar-text">
-              <p>240k views · 4 months ago</p>
-              <p>Edward Osborne</p>
-            </div>
+              <p className="rightbar-text1">240k views · 4 months ago</p>
+              <p className="rightbar-text2">Edward Osborne</p>
+            </div></Link>
           </li>
         </div>
 
