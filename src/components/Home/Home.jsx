@@ -1,6 +1,5 @@
 import "./Home.scss";
-
-
+import { Link } from "react-router-dom";
 //components
 import Sidebar from "../../components/Sidebar/Sidebar";
 import HomeTop from "../../components/HomeTop/HomeTop";
@@ -18,7 +17,6 @@ import FoodDrink from "../FoodDrink/FoodDrink";
 import Food from "../../assets/img/fd.png";
 import Videocart from "../../components/Videocart/Videocart";
 import ChannelPage from "../ChannelPage/ChannelPage";
-// import VideoBar from "../VideoBar/VideoBar";
 import Header from "../Header/Header";
 
 function Home() {
@@ -50,6 +48,7 @@ function Home() {
                 <div className="overflow">
                   <div className="home-main__content">
                     <div className="home-main__channel">
+                    <Link className="linksd" to="/channel">
                       <img
                         className="blair"
                         src={blair}
@@ -58,6 +57,7 @@ function Home() {
                         height="35"
                       />
                       <p className="blair-text">Dollie Blair</p>
+                      </Link>
                       <div className="arrow">
                         <div className="arrow-left">
                           <ArrowL />
@@ -102,6 +102,7 @@ function Home() {
                   </div>
                   <div className="mainfood-wapper">
                     <div className="food-wapper">
+                    <Link className="linksd" to="/channel">
                       <img
                         className="food-channel__img"
                         src={Food}
@@ -110,6 +111,7 @@ function Home() {
                         height="50"
                       />
                       <h4 className="food-channel__title">Food & Drink</h4>
+                      </Link>
                       <p className="food-channel__text">
                         Recommended channel for you
                       </p>

@@ -6,9 +6,7 @@ import Likes from "../Library/Svg/likes";
 import Dislikes from "../Library/Svg/dislikes";
 import VideoBar from "../VideoBar/VideoBar";
 
-// import { Link } from "react-router-dom";
-
-function Videocart({ title }) {
+function Videocart() {
   const [items, setItems] = useState([]);
   const [counter, setCounter] = useState(123);
 
@@ -22,6 +20,7 @@ function Videocart({ title }) {
   }, []);
   return (
     <div className="video-page">
+      
       <div className="video-youtube">
         <iframe
           className="iframe-youtube"
@@ -33,9 +32,10 @@ function Videocart({ title }) {
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowFullScreen
         ></iframe>
-        <h4>Dude You Re Getting A Telescope</h4>
+        
+        <h4 className="dude">Dude You Re Getting A Telescope</h4>
         <div className="vid-box">
-          <p>123k views</p>
+          <p className="views">123k views</p>
           <div className="button-box">
             <button
               className="like-button"
@@ -61,8 +61,10 @@ function Videocart({ title }) {
             <Dots />
           </div>
         </div>
+
+<div className="subvideo-box">
         <div className="subvideo">
-          <img src={Oval} alt="food" width="80" height="70" />
+          <img className="food-pic" src={Oval} alt="food" width="80" height="70" />
         </div>
         <div className="subvideo-text">
           <h3 className="foodsub__title">Food & Drink</h3>
@@ -75,10 +77,13 @@ function Videocart({ title }) {
             number of factors, including ad placement, demographic, even the
             consumer’s mood when they see your ad.
           </p>
-        </div>
+        </div></div>
       </div>
       <div className="rightbar-video">
-        <h2>Next</h2>
+      <div className="next-auto">
+          <h2 className="next">Next</h2>
+          <p className="autoplay">Autoplay</p>
+        </div>
         {items.length > 0 && (
           <ul className="home-rightbar__list">
             {items.map((video) => (
@@ -87,6 +92,8 @@ function Videocart({ title }) {
           </ul>
         )}
       </div>
+
+
     </div>
   );
 }

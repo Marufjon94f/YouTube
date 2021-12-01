@@ -47,3 +47,52 @@
   height: 620px;
   overflow: auto;
 }
+.next {
+  margin-left: 50px;
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 45px;
+
+  color: #19202c;
+}
+.autoplay {
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+
+  color: #19202c;
+}
+.food-pic{
+  margin: 10px 15px 0 0;
+}
+.views {
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 25px;
+  color: #c2c2c2;
+}
+.next-auto {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 10px;
+}
+.dude {
+  font-family: Mulish;
+  font-weight: bold;
+  font-size: 34px;
+  line-height: 40px;
+  color: #192646;
+}
+
+.subvideo-box {
+  display: flex;
+}

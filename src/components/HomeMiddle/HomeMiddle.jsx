@@ -7,7 +7,7 @@ function HomeMiddle ({title}) {
 <div>
     
 <li className="home-middlie-item">
-<Link className="links" to="/video"><img className="cover-img" src={Cover} alt="cover-img" width="350" height="200"/>
+<Link className="links" to="/video"><img className="cover-img" src={Cover} alt="cover-pic" width="350" height="200"/>
 <h5 className="middle-title">{title}</h5>
 <div className="middle-text">
 <p>240k views  ·  4 months ago</p>

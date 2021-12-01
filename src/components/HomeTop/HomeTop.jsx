@@ -10,7 +10,7 @@ function HomeTop({title}) {
 <div className="home-top">
 
 <li className="home-top-item">
-<Link className="links" to="/video"><img className="home-top__img" src={Landing} 
+<Link className="links" to="/video"><img className="home-top__pic" src={Landing} 
         alt="pic"
         width="250"
         height="150"

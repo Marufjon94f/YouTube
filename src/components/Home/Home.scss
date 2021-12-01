@@ -4,9 +4,10 @@
   // overflow: auto;
 }
 .overflow {
-  width: 86vw;
+  width: 85vw;
   height: 630px;
   overflow: auto;
+  margin-left: 15px;
 }
 .home-top-list {
   font-family: Mulish;
@@ -30,7 +31,11 @@
   object-fit: cover;
   margin-top: -18px;
 }
-
+.linksd{
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
 .home-main__channel {
   display: flex;
   align-items: center;
@@ -61,7 +66,6 @@
 .food-list {
   font-family: Mulish;
   width: 81vw;
-  margin-top: -100px;
   display: flex;
   overflow: auto;
 
