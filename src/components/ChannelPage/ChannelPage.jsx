@@ -1,6 +1,9 @@
 import "./ChannelPage.scss";
 import { Link } from "react-router-dom";
 import ChannelBottom from "../ChannelBottom/ChannelBottom";
+// import { useEffect, useState } from "react/cjs/react.development";
+import { useEffect } from "react";
+import { useState } from "react";
 
 //images
 import girl from "../../assets/img/girlsglass.png";
@@ -9,7 +12,7 @@ import knife from "../../assets/img/knife.png";
 import man1 from "../../assets/img/man1.png";
 import man2 from "../../assets/img/man2.png";
 import man3 from "../../assets/img/man3.png";
-import { useEffect, useState } from "react/cjs/react.development";
+
 
 
 function ChannelPage() {
