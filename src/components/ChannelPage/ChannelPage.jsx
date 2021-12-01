@@ -13,8 +13,6 @@ import man1 from "../../assets/img/man1.png";
 import man2 from "../../assets/img/man2.png";
 import man3 from "../../assets/img/man3.png";
 
-
-
 function ChannelPage() {
   const [items, setItems] = useState([]);
 
@@ -40,51 +38,59 @@ function ChannelPage() {
       </div>
 
       <ul className="homel-list">
-        
-          <li className="homel" >
-           <Link className="links" to="./"> Home</Link>
-          </li>
-        
-        
-          <li className="homel" >
-          <Link className="links" to="./video">  Videos</Link>
-          </li>
-        
-        
-          <li className="homel" >
-            <Link className="links" to="./video">Playlists</Link>
-          </li>
-        
-        
-          <li className="homel" >
-         <Link className="links" to="./channel">   Channels</Link>
-          </li>
-        
-        
-          <li className="homel" >
-          <Link className="links" to="./video">  Discussion</Link>
-          </li>
-        
-        
-          <li className="homel" >
-           <Link className="links" to="./"> About</Link>
-          </li>
-        
-        
-          <li className="homel">     <Link className="links" to="./video">  <img src={search} alt="search" width="12" height="12" /></Link>
-          </li>
-        
+        <li className="homel">
+          <Link className="links" to="./">
+            Home
+          </Link>
+        </li>
+
+        <li className="homel">
+          <Link className="links" to="./video">
+            Videos
+          </Link>
+        </li>
+
+        <li className="homel">
+          <Link className="links" to="./video">
+            Playlists
+          </Link>
+        </li>
+
+        <li className="homel">
+          <Link className="links" to="./channel">
+            Channels
+          </Link>
+        </li>
+
+        <li className="homel">
+          <Link className="links" to="./video">
+            Discussion
+          </Link>
+        </li>
+
+        <li className="homel">
+          <Link className="links" to="./">
+            About
+          </Link>
+        </li>
+
+        <li className="homel">
+          <Link className="links" to="./video">
+            <img src={search} alt="search" width="12" height="12" />
+          </Link>
+        </li>
       </ul>
 
       <div className="knife-box">
-      <Link className="link-vid" to="./video">
-        <img
-          className="knifie"
-          src={knife}
-          alt="knife"
-          width="550"
-          height="300"
-        /></Link>
+        <Link className="link-vid" to="./video">
+          <img
+            className="knifie"
+            src={knife}
+            alt="knife"
+            width="550"
+            height="300"
+          />
+        </Link>
         <div className="knife-box__wrapper">
           <h3 className="kinfe-title">
             Choosing The Best Audio Player Software For Your Computer

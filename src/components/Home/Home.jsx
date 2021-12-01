@@ -104,7 +104,7 @@ function Home() {
                     <div className="food-wapper">
                     <Link className="linksd" to="/channel">
                       <img
-                        className="food-channel__img"
+                        className="food-channel__pic"
                         src={Food}
                         alt="food-drink"
                         width="50"

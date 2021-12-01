@@ -1,5 +1,7 @@
 import "./Videocart.scss";
 import { useEffect, useState } from "react";
+
+//pages
 import Dots from "../Library/Svg/dots";
 import Oval from "../../assets/img/Oval.jpg";
 import Likes from "../Library/Svg/likes";

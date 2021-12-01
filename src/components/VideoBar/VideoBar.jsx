@@ -1,6 +1,7 @@
 import "./VideoBar.scss"
-import Cover from "../../assets/img/Cover.png";
 import { Link } from "react-router-dom";
+import Cover from "../../assets/img/Cover.png";
+
 
 function VideoBar ({title}){
 
